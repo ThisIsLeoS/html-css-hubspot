@@ -49,3 +49,33 @@ body {
     background-color: brown; /* debug */
   }
   /* /header first row */
+
+  /* header second row  */
+  #header-second-row {
+    background-color: grey;
+  }
+
+  .row-container {
+    width: 84%;
+    height: 70px;
+    margin: auto;
+    background-color: brown; /* debug */
+  }
+
+    /* clearfix */
+  #header-first-row > .row-container:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .head-row-2-ul-sx {
+    float: left;
+    background-color: black; /* debug */
+  }
+
+  .head-row-2-ul-dx {
+    float: right;
+    background-color: white; /* debug */
+  }
+  /* /header second row  */
