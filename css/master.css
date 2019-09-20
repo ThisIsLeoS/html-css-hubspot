@@ -5,3 +5,37 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* body */
+body {
+  width: 1200px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+/* header */
+#header-first-row {
+  height: 50px;
+  background-color: rgb(51, 71, 91);
+}
+
+#header-first-row > .logo-container {
+  float: left;
+  width: 10%;
+  height: 50px; /* debug */
+  background-color: red; /* debug */
+}
+
+#header-first-row > nav {
+  float: left;
+  width: 60%;
+  height: 50px; /* debug */
+  background-color: pink; /* debug */
+}
+
+#header-first-row > ul {
+  float: left;
+  width: 30%;
+  height: 50px; /* debug */
+  background-color: brown; /* debug */
+}
