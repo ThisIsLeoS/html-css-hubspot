@@ -1,0 +1,7 @@
+/* all elements rules */
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
