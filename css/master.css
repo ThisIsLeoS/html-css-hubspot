@@ -17,7 +17,9 @@
 
   /* clearfix */
   #header-first-row:after,
-  #header-second-row > .row-container:after {
+  #header-second-row > .row-container:after,
+  #header-third-row > .row-container:after,
+  {
     content: "";
     display: table;
     clear: both;
@@ -78,3 +80,24 @@ body {
     background-color: white; /* debug */
   }
   /* /header second row  */
+
+  /* header third row */
+  #header-third-row {
+    height: 70px;
+    background-color: white;
+  }
+
+  #header-third-row .logo-link {
+    float: left;
+    width: 10%; /* debug */
+    height: 70px; /* debug */
+    background-color: black; /* debug */
+  }
+
+  #header-third-row ul {
+    float: right;
+    width: 10%; /* debug */
+    height: 70px; /* debug */
+    background-color: pink; /* debug */
+  }
+  /* /header third row */
