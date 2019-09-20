@@ -6,6 +6,23 @@
   box-sizing: border-box;
 }
 
+/* rules used in different parts of the page */
+
+  .row-container {
+    width: 84%;
+    height: 70px;
+    margin: auto;
+    background-color: brown; /* debug */
+  }
+
+  /* clearfix */
+  #header-first-row:after,
+  #header-second-row > .row-container:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
 /* body */
 body {
   width: 1200px;
@@ -21,30 +38,23 @@ body {
     background-color: rgb(51, 71, 91);
   }
 
-    /* clearfix */
-  #header-first-row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
   #header-first-row > .logo-container {
     float: left;
-    width: 10%;
+    width: 10%; /* debug */
     height: 50px; /* debug */
     background-color: red; /* debug */
   }
 
   #header-first-row > nav {
     float: left;
-    width: 60%;
+    width: 10%; /* debug */
     height: 50px; /* debug */
     background-color: pink; /* debug */
   }
 
   #header-first-row > ul {
-    float: left;
-    width: 30%;
+    float: right;
+    width: 30%; /* debug */
     height: 50px; /* debug */
     background-color: brown; /* debug */
   }
@@ -52,30 +62,19 @@ body {
 
   /* header second row  */
   #header-second-row {
+    heigh: 70px;
     background-color: grey;
-  }
-
-  .row-container {
-    width: 84%;
-    height: 70px;
-    margin: auto;
-    background-color: brown; /* debug */
-  }
-
-    /* clearfix */
-  #header-first-row > .row-container:after {
-    content: "";
-    display: table;
-    clear: both;
   }
 
   .head-row-2-ul-sx {
     float: left;
+    height: 50px; /* debug */
     background-color: black; /* debug */
   }
 
   .head-row-2-ul-dx {
     float: right;
+    height: 50px; /* debug */
     background-color: white; /* debug */
   }
   /* /header second row  */
