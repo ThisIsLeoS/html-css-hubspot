@@ -101,3 +101,18 @@ body {
     background-color: pink; /* debug */
   }
   /* /header third row */
+
+/* footer */
+
+footer {
+  background-color: rgb(51, 71, 91);
+}
+
+  /* footer first row (with 4 lists) */
+  #foot-4-lists-row {
+    height: 70px; /* debug */
+    background-color: blue; /* debug */
+  }
+  /* /footer first row (with 4 lists) */
+
+/* /footer */
