@@ -1,4 +1,4 @@
-/* all elements rules */
+/* reset rules */
 * {
   margin: 0;
   border: 0;
@@ -6,34 +6,41 @@
   box-sizing: border-box;
 }
 
-/* rules used in different parts of the page */
-  .row-container {
-    width: 84%;
-    margin: auto;
-  }
+/* rules used (or usable) in different parts of the page */
+a {
+  /* overwriting browser's style */
+  text-decoration: none;
+}
 
-  /* clearfix */
-  #header-first-row:after,
-  #header-second-row > .row-container:after,
-  #header-third-row > .row-container:after,
-  #footer-4-lists-icons-row > .row-container:after,
-  #footer-last-row > .row-container:after,
-  #main-2nd-row-2nd-row > .row-container-3:after,
-  #main-2nd-row-third-row > .row-container-3:after,
-  #main-3rd-row-2nd-row > .row-container:after,
-  #main-4th-row-1st-row-2nd-col ul,
-  #main-4th-row-1st-row > .row-container-3:after,
-  #main-4th-row-2nd-row > .row-container-3:after
-  {
-    content: "";
-    display: table;
-    clear: both;
-  }
+.row-container {
+  width: 84%;
+  margin: auto;
+}
 
-  /* background colors */
-  .white-back {
-    background-color: white;
-  }
+/* clearfix */
+#header-first-row:after,
+#header-second-row > .row-container:after,
+#header-third-row > .row-container:after,
+#footer-4-lists-icons-row > .row-container:after,
+#footer-last-row > .row-container:after,
+#main-2nd-row-2nd-row > .row-container-3:after,
+#main-2nd-row-third-row > .row-container-3:after,
+#main-3rd-row-2nd-row > .row-container:after,
+#main-4th-row-1st-row-2nd-col ul,
+#main-4th-row-1st-row > .row-container-3:after,
+#main-4th-row-2nd-row > .row-container-3:after
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* background colors */
+.white-back {
+  background-color: white;
+}
+
+/* rules used in specific parts of the page */
 
 /* body */
 body {
@@ -44,29 +51,53 @@ body {
 
 /* header */
   header li {
+    /* to align the list items on the same line */
     display: inline-block;
   }
 
   /* header's first row */
   #header-first-row {
+    height: 50px;
     background-color: rgb(51, 71, 91);
   }
 
-  #header-first-row > .logo-container {
+  .logo-img {
     float: left;
-    width: 10%; /* debug */
-    background-color: red; /* debug */
+    /* aligning the image vertically in its container */
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   #header-first-row > nav {
     float: left;
-    background-color: pink; /* debug */
+  }
+
+  #header-first-row a {
+    /* aligning links vertically in their container */
+    line-height: 50px;
+    /* overwriting browser's style */
+    color: white;
   }
 
   #header-first-row > ul {
     float: right;
-    padding-right: 15%;
-    background-color: brown; /* debug */
+    padding-right: 5%;
+  }
+
+  #header-first-row li {
+    padding-left: 20px;
+  }
+
+  .fa-search,
+  .fa-cog,
+  .fa-user-circle {
+    color: black;
+  }
+
+  .vertical-line {
+    border-right: 1px solid yellow;
+    height: 40px;
+    vertical-align: middle;
   }
   /* /header's first row */
 
