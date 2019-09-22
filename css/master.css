@@ -20,7 +20,9 @@
   #footer-last-row > .row-container:after,
   #main-2nd-row-2nd-row > .row-container-3:after,
   #main-2nd-row-third-row > .row-container-3:after,
-  #main-3rd-row-2nd-row > .row-container:after
+  #main-3rd-row-2nd-row > .row-container:after,
+  #main-4th-row-1st-row-2nd-col ul,
+  #main-4th-row-1st-row
   {
     content: "";
     display: table;
@@ -84,9 +86,6 @@ body {
   /* /header's second row  */
 
   /* header's third row */
-  #header-third-row {
-    background-color: white;
-  }
 
   #header-third-row .logo-link {
     float: left;
@@ -178,14 +177,35 @@ body {
   }
 
   #main-3rd-row-2nd-row > :last-child {
-    border-top: 1px solid black;
+    border-top: 1px solid white;
   }
 
   .border-right-solid {
-    border-right: 1px solid black;
+    border-right: 1px solid white;
   }
 
   /* /main's third row */
+
+  /* main's fourth row */
+
+  /* first row of main's fourth row */
+  #main-4th-row-1st-row-first-col {
+    float: left;
+    width: 30%;
+  }
+
+  #main-4th-row-1st-row-2nd-col {
+    float: left;
+    width: 70%;
+  }
+
+  #main-4th-row-1st-row-2nd-col > ul:first-child > li,
+  #main-4th-row-1st-row-2nd-col > ul:last-child > li {
+    float: left;
+  }
+  /* /first row of main's fourth row */
+
+  /* /main's fourth row */
 
 /* /main */
 
