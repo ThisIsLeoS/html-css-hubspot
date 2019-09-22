@@ -103,17 +103,38 @@ body {
 
   /* header's second row  */
   #header-second-row {
-      background-color: grey;
+    height: 70px;
+    background-color: lightgrey;
   }
 
-  .header-row-2-ul-left {
+  #header-row-2-ul-left,
+  #header-row-2-ul-right {
+    /* vertically aligning content of the two lists */
+    line-height: 70px;
+  }
+
+  #header-row-2-ul-left {
     float: left;
-    background-color: black; /* debug */
   }
 
-  .header-row-2-ul-right {
+  #header-row-2-ul-right {
     float: right;
-    background-color: white; /* debug */
+  }
+
+  #header-second-row a {
+    /* overwriting browser's style */
+    color: rgb(51, 71, 91);
+  }
+
+  #header-second-row li {
+    padding-left: 10px;
+  }
+
+  /* "Get Hubspot Free" button */
+  #header-row-2-ul-right > li:last-child > a {
+    padding: 7px 20px;
+    border: 2px rgb(51, 71, 91) solid;
+    background-color: orange;
   }
   /* /header's second row  */
 
