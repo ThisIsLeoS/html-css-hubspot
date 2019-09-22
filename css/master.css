@@ -17,7 +17,9 @@
   #header-second-row > .row-container:after,
   #header-third-row > .row-container:after,
   #footer-4-lists-icons-row > .row-container:after,
-  #footer-last-row > .row-container:after
+  #footer-last-row > .row-container:after,
+  #main-2nd-row-2nd-row > .row-container-3,
+  #main-2nd-row-third-row > .row-container-3  
   {
     content: "";
     display: table;
@@ -145,6 +147,14 @@ body {
   #main-2nd-row-2nd-row > .row-container-3 > :last-child li {
     display: inline-block;
   }
+
+  /* third row of main's second row */
+  .hub-container {
+    float: left;
+    width: 33.3333%;
+    background-color: white;
+  }
+
   /* /main's second row */
 /* /main */
 
