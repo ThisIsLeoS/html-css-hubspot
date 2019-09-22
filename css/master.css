@@ -25,6 +25,11 @@
     clear: both;
   }
 
+  /* background colors */
+  .white-back {
+    background-color: white;
+  }
+
 /* body */
 body {
   width: 1200px;
@@ -152,14 +157,35 @@ footer {
   /* /main first row */
 
   /* main second row */
+  #main-second-row {
+    background-color: rgb(244, 248, 250);
+  }
+
   .row-container-3 {
     width: 74%;
     margin: auto;
-    background-color: red; /* debug */
   }
 
+    /* first row of main's second row */
   #main-second-row #first-row {
     text-align: center;
+  }
+
+  /* second row of main's second row */
+  #second-row > .row-container-3 > :first-child {
+    float: left;
+    width: 35%;
+    background-color: black; /* debug */
+  }
+
+  #second-row > .row-container-3 > :last-child {
+    float: left;
+    width: 65%;
+    background-color: green; /* debug */
+  }
+
+  #second-row > .row-container-3 > :last-child li {
+    display: inline-block;
   }
   /* /main second row */
 
