@@ -36,7 +36,7 @@ body {
   header li {
     display: inline-block;
   }
-  
+
   /* header-first-row */
   #header-first-row {
     background-color: rgb(51, 71, 91);
@@ -134,3 +134,21 @@ footer {
     float: right;
   }
 /* /footer */
+
+/* main */
+
+  /* main first row */
+  #main-first-row {
+    height: 650px;
+    background-image: url("../img/buildings-people-background.png");
+    background-size: 100% 100%;
+  }
+
+  .row-container-2 {
+    width: 40%;
+    margin-left: 8%;
+    padding-top: 50px;
+  }
+  /* /main first row */
+
+/* /main */
