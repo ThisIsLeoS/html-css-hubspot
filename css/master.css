@@ -19,7 +19,7 @@
   #footer-4-lists-icons-row > .row-container:after,
   #footer-last-row > .row-container:after,
   #main-2nd-row-2nd-row > .row-container-3,
-  #main-2nd-row-third-row > .row-container-3  
+  #main-2nd-row-third-row > .row-container-3
   {
     content: "";
     display: table;
@@ -156,6 +156,20 @@ body {
   }
 
   /* /main's second row */
+
+  /* main's third row */
+  #main-3rd-row {
+    background-color: url(244, 248, 250);
+  }
+
+  /* first row of main's second row */
+  #main-3rd-row-1st-row {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+  /* /main's third row */
+
 /* /main */
 
 /* footer */
