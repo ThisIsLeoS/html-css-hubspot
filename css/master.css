@@ -22,7 +22,8 @@
   #main-2nd-row-third-row > .row-container-3:after,
   #main-3rd-row-2nd-row > .row-container:after,
   #main-4th-row-1st-row-2nd-col ul,
-  #main-4th-row-1st-row
+  #main-4th-row-1st-row > .row-container-3:after,
+  #main-4th-row-2nd-row > .row-container-3:after
   {
     content: "";
     display: table;
@@ -183,7 +184,6 @@ body {
   .border-right-solid {
     border-right: 1px solid white;
   }
-
   /* /main's third row */
 
   /* main's fourth row */
@@ -204,6 +204,14 @@ body {
     float: left;
   }
   /* /first row of main's fourth row */
+
+  /* second row of main's fourth row */
+  #main-4th-row-2nd-row-1st-col,
+  #main-4th-row-2nd-row-2nd-col {
+    float: left;
+    width: 50%;
+  }
+  /* /second row of main's fourth row */
 
   /* /main's fourth row */
 
