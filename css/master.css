@@ -151,4 +151,16 @@ footer {
   }
   /* /main first row */
 
+  /* main second row */
+  .row-container-3 {
+    width: 74%;
+    margin: auto;
+    background-color: red; /* debug */
+  }
+
+  #main-second-row #first-row {
+    text-align: center;
+  }
+  /* /main second row */
+
 /* /main */
