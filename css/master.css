@@ -17,7 +17,7 @@
   #header-first-row:after,
   #header-second-row > .row-container:after,
   #header-third-row > .row-container:after,
-  #foot-4-lists-row > .row-container:after,
+  #foot-4-lists-icons-row > .row-container:after,
   #foot-last-row > .row-container:after
   {
     content: "";
@@ -109,11 +109,11 @@ footer {
 }
 
   /* footer first row (4 lists and icons too) */
-  #foot-4-lists-row {
-    background-color: yellow; /* debug */  
+  #foot-4-lists-icons-row {
+    background-color: yellow; /* debug */
   }
 
-  #foot-4-lists-row ul {
+  #foot-4-lists-icons-row ul {
     float: left;
     width: 25%;
   }
