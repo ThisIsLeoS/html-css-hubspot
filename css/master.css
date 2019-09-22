@@ -33,71 +33,61 @@ body {
 }
 
 /* header */
-
+  header li {
+    display: inline-block;
+  }
+  
   /* header-first-row */
   #header-first-row {
-    height: 50px;
     background-color: rgb(51, 71, 91);
   }
 
   #header-first-row > .logo-container {
     float: left;
     width: 10%; /* debug */
-    height: 50px; /* debug */
     background-color: red; /* debug */
   }
 
   #header-first-row > nav {
     float: left;
-    width: 10%; /* debug */
-    height: 50px; /* debug */
     background-color: pink; /* debug */
   }
 
   #header-first-row > ul {
     float: right;
-    width: 30%; /* debug */
-    height: 50px; /* debug */
+    padding-right: 15%;
     background-color: brown; /* debug */
   }
   /* /header first row */
 
   /* header second row  */
   #header-second-row {
-    heigh: 70px;
-    background-color: grey;
+      background-color: grey;
   }
 
   .head-row-2-ul-sx {
     float: left;
-    height: 50px; /* debug */
     background-color: black; /* debug */
   }
 
   .head-row-2-ul-dx {
     float: right;
-    height: 50px; /* debug */
     background-color: white; /* debug */
   }
   /* /header second row  */
 
   /* header third row */
   #header-third-row {
-    height: 70px;
     background-color: white;
   }
 
   #header-third-row .logo-link {
     float: left;
-    width: 10%; /* debug */
-    height: 70px; /* debug */
     background-color: black; /* debug */
   }
 
   #header-third-row ul {
     float: right;
-    width: 10%; /* debug */
-    height: 70px; /* debug */
     background-color: pink; /* debug */
   }
   /* /header third row */
