@@ -7,7 +7,6 @@
 }
 
 /* rules used in different parts of the page */
-
   .row-container {
     width: 84%;
     margin: auto;
@@ -17,8 +16,8 @@
   #header-first-row:after,
   #header-second-row > .row-container:after,
   #header-third-row > .row-container:after,
-  #foot-4-lists-icons-row > .row-container:after,
-  #foot-last-row > .row-container:after
+  #footer-4-lists-icons-row > .row-container:after,
+  #footer-last-row > .row-container:after
   {
     content: "";
     display: table;
@@ -42,7 +41,7 @@ body {
     display: inline-block;
   }
 
-  /* header-first-row */
+  /* header's first row */
   #header-first-row {
     background-color: rgb(51, 71, 91);
   }
@@ -63,25 +62,25 @@ body {
     padding-right: 15%;
     background-color: brown; /* debug */
   }
-  /* /header first row */
+  /* /header's first row */
 
-  /* header second row  */
+  /* header's second row  */
   #header-second-row {
       background-color: grey;
   }
 
-  .head-row-2-ul-sx {
+  .header-row-2-ul-left {
     float: left;
     background-color: black; /* debug */
   }
 
-  .head-row-2-ul-dx {
+  .header-row-2-ul-right {
     float: right;
     background-color: white; /* debug */
   }
-  /* /header second row  */
+  /* /header's second row  */
 
-  /* header third row */
+  /* header's third row */
   #header-third-row {
     background-color: white;
   }
@@ -95,20 +94,71 @@ body {
     float: right;
     background-color: pink; /* debug */
   }
-  /* /header third row */
+  /* /header's third row */
+
+/* /header */
+
+/* main */
+
+  /* main's first row */
+  #main-first-row {
+    height: 650px;
+    background-image: url("../img/buildings-people-background.png");
+    background-size: 100% 100%;
+  }
+
+  .row-container-2 {
+    width: 40%;
+    margin-left: 8%;
+    padding-top: 50px;
+  }
+  /* /main's first row */
+
+  /* main's second row */
+  #main-2nd-row-first-row {
+    background-color: rgb(244, 248, 250);
+  }
+
+  .row-container-3 {
+    width: 74%;
+    margin: auto;
+  }
+
+    /* first row of main's second row */
+  #main-second-row-first-row {
+    text-align: center;
+  }
+
+  /* second row of main's second row */
+  #main-2nd-row-2nd-row > .row-container-3 > :first-child {
+    float: left;
+    width: 35%;
+    background-color: black; /* debug */
+  }
+
+  #main-2nd-row-2nd-row > .row-container-3 > :last-child {
+    float: left;
+    width: 65%;
+    background-color: green; /* debug */
+  }
+
+  #main-2nd-row-2nd-row > .row-container-3 > :last-child li {
+    display: inline-block;
+  }
+  /* /main's second row */
+/* /main */
 
 /* footer */
-
 footer {
   background-color: rgb(51, 71, 91);
 }
 
-  /* footer first row (4 lists and icons too) */
-  #foot-4-lists-icons-row {
+  /* footer's first row (4 lists and icons too) */
+  #footer-4-lists-icons-row {
     background-color: yellow; /* debug */
   }
 
-  #foot-4-lists-icons-row ul {
+  #footer-4-lists-icons-row ul {
     float: left;
     width: 25%;
   }
@@ -116,17 +166,17 @@ footer {
   #footer-icon-list li {
     display: inline-block;
   }
-  /* /footer first row (4 lists and icons too) */
+  /* /footer's first row (4 lists and icons too) */
 
-  /* footer second row (with language links) */
-  #foot-languages-row {
+  /* footer's second row (with language links) */
+  #footer-languages-row {
     width: 100%;
     text-align: center;
     background-color: red; /* debug */
   }
 
-  /* footer last row */
-  #foot-last-row {
+  /* footer's last row */
+  #footer-last-row {
     border-top: 2px solid;
     background-color: green; /* debug */
   }
@@ -139,54 +189,3 @@ footer {
     float: right;
   }
 /* /footer */
-
-/* main */
-
-  /* main first row */
-  #main-first-row {
-    height: 650px;
-    background-image: url("../img/buildings-people-background.png");
-    background-size: 100% 100%;
-  }
-
-  .row-container-2 {
-    width: 40%;
-    margin-left: 8%;
-    padding-top: 50px;
-  }
-  /* /main first row */
-
-  /* main second row */
-  #main-second-row {
-    background-color: rgb(244, 248, 250);
-  }
-
-  .row-container-3 {
-    width: 74%;
-    margin: auto;
-  }
-
-    /* first row of main's second row */
-  #main-second-row #first-row {
-    text-align: center;
-  }
-
-  /* second row of main's second row */
-  #second-row > .row-container-3 > :first-child {
-    float: left;
-    width: 35%;
-    background-color: black; /* debug */
-  }
-
-  #second-row > .row-container-3 > :last-child {
-    float: left;
-    width: 65%;
-    background-color: green; /* debug */
-  }
-
-  #second-row > .row-container-3 > :last-child li {
-    display: inline-block;
-  }
-  /* /main second row */
-
-/* /main */
