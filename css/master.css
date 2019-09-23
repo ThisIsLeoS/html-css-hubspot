@@ -12,6 +12,19 @@ a {
   text-decoration: none;
 }
 
+.link-orange-back-white-font {
+  background-color: orange;
+  color: white;
+}
+
+.small-link {
+  padding: 7px 20px;
+}
+
+.big-link {
+  padding: 15px 20px;
+}
+
 .row-container {
   width: 84%;
   margin: auto;
@@ -126,20 +139,14 @@ body {
     color: rgb(51, 71, 91);
   }
 
-  #header-row-2-ul-right > li:last-child > a {
-    /* overwriting browser's style */
-    color: white;
-  }
-
   #header-second-row li {
     padding-left: 10px;
   }
 
   /* "Get Hubspot Free" button */
   #header-row-2-ul-right > li:last-child > a {
-    padding: 7px 20px;
     border: 2px rgb(51, 71, 91) solid;
-    background-color: orange;
+    color: white;
   }
   /* /header's second row  */
 
@@ -179,12 +186,27 @@ body {
     height: 650px;
     background-image: url("../img/buildings-people-background.png");
     background-size: 100% 100%;
+    color: rgb(51, 71, 91);
   }
 
   .row-container-2 {
     width: 40%;
     margin-left: 8%;
-    padding-top: 50px;
+    padding-top: 80px;
+  }
+
+  #main-first-row h1 {
+    font-size: 55px;
+  }
+
+  #main-first-row p {
+    padding-top: 30px;
+  }
+
+  #main-first-row a {
+    /* to add a top margin (<a> is an inline element by default and borders can't be set for inline elements)*/
+    display: inline-block;
+    margin-top: 30px;
   }
   /* /main's first row */
 
