@@ -30,6 +30,12 @@ a {
   margin: auto;
 }
 
+.row-container-3 {
+  width: 74%;
+  margin: auto;
+  padding: 25px 0;
+}
+
 /* clearfix */
 #header-first-row:after,
 #header-second-row > .row-container:after,
@@ -51,6 +57,11 @@ a {
 /* background colors */
 .white-back {
   background-color: white;
+}
+
+/* font colors */
+.orange-font {
+  color: orange;
 }
 
 /* rules used in specific parts of the page */
@@ -217,12 +228,6 @@ body {
     color: rgb(51, 71, 91);
   }
 
-  .row-container-3 {
-    width: 74%;
-    margin: auto;
-    padding: 25px 0;
-  }
-
   /* first row of main's second row */
   #main-2nd-row-first-row {
     text-align: center;
@@ -242,31 +247,49 @@ body {
   /* /first row of main's second row */
 
   /* second row of main's second row */
-  #main-2nd-row-2nd-row > .row-container-3 > :first-child {
-    float: left;
-    width: 29%;
-    padding-left: 6%;
-    text-align: center;
-  }
 
-  #main-2nd-row-2nd-row > .row-container-3 > :first-child > img {
-    width: 200px;
-    height: 150px;
-  }
+    /* first column */
+    #main-2nd-row-2nd-row > .row-container-3 > :first-child {
+      float: left;
+      width: 29%;
+      padding-left: 6%;
+      text-align: center;
+    }
 
-  #main-2nd-row-2nd-row > .row-container-3 > :first-child > a {
-    display: inline-block;
-  }
+    #main-2nd-row-2nd-row > .row-container-3 > :first-child > img {
+      width: 200px;
+      height: 150px;
+    }
 
-  #main-2nd-row-2nd-row > .row-container-3 > :last-child {
-    float: left;
-    width: 65%;
-    background-color: green; /* debug */
-  }
+    #main-2nd-row-2nd-row > .row-container-3 > :first-child > a {
+      /* to add a top margin (<a> is an inline element by default and borders can't be set for inline elements)*/
+      display: inline-block;
+      margin-top: 10px;
+    }
+    /* first column */
 
-  #main-2nd-row-2nd-row > .row-container-3 > :last-child li {
-    display: inline-block;
-  }
+    /* second column */
+    #main-2nd-row-2nd-row > .row-container-3 > :last-child {
+      float: left;
+      width: 55%;
+      margin-top: 25px;
+      margin-left: 10%;
+      color: rgb(51, 71, 91);
+    }
+
+    #main-2nd-row-2nd-row > .row-container-3 > section:last-child > p {
+      margin: 20px 0;
+    }
+
+    #main-2nd-row-2nd-row > .row-container-3 > section:last-child > ul {
+      margin-top: 20px;
+    }
+
+    #main-2nd-row-2nd-row > .row-container-3 > :last-child li {
+      display: inline-block;
+      margin-right: 8px;
+    }
+    /* /second column */
 
   /* third row of main's second row */
   .hub-container {
