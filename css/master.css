@@ -126,6 +126,11 @@ body {
     color: rgb(51, 71, 91);
   }
 
+  #header-row-2-ul-right > li:last-child > a {
+    /* overwriting browser's style */
+    color: white;
+  }
+
   #header-second-row li {
     padding-left: 10px;
   }
@@ -139,15 +144,29 @@ body {
   /* /header's second row  */
 
   /* header's third row */
+  #header-third-row {
+    height: 70px;
+  }
 
-  #header-third-row .logo-link {
+  #header-third-row .logo-img {
     float: left;
-    background-color: black; /* debug */
+    /* aligning the image vertically in its container */
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   #header-third-row ul {
     float: right;
-    background-color: pink; /* debug */
+    line-height: 70px;
+  }
+
+  #header-third-row a {
+    /* overwriting browser's style */
+    color: rgb(51, 71, 91);
+  }
+
+  #header-third-row li {
+    padding-left: 20px;
   }
   /* /header's third row */
 
