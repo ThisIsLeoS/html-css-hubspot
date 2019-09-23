@@ -12,6 +12,11 @@ a {
   text-decoration: none;
 }
 
+li {
+  /* overwriting browser's style */
+  list-style-type: none;
+}
+
 .link-orange-back-white-font {
   background-color: orange;
   color: white;
@@ -52,6 +57,11 @@ a {
   content: "";
   display: table;
   clear: both;
+}
+
+.crm-illustration-img {
+  width: 200px;
+  height: 150px;
 }
 
   /* background colors */
@@ -248,7 +258,7 @@ body {
 
     /* second row of main's second row */
 
-    /* first column */
+      /* first column */
   #main-2nd-row-2nd-row > .row-container-3 > :first-child {
     float: left;
     width: 29%;
@@ -256,19 +266,14 @@ body {
     text-align: center;
   }
 
-  #main-2nd-row-2nd-row > .row-container-3 > :first-child > img {
-    width: 200px;
-    height: 150px;
-  }
-
   #main-2nd-row-2nd-row > .row-container-3 > :first-child > a {
     /* to add a top margin (<a> is an inline element by default and borders can't be set for inline elements)*/
     display: inline-block;
     margin-top: 10px;
   }
-    /* first column */
+      /* first column */
 
-    /* second column */
+      /* second column */
   #main-2nd-row-2nd-row > .row-container-3 > :last-child {
     float: left;
     width: 55%;
@@ -289,14 +294,38 @@ body {
     display: inline-block;
     margin-right: 8px;
   }
-    /* /second column */
+      /* /second column */
 
-  /* third row of main's second row */
+    /* third row of main's second row */
   .hub-container {
     float: left;
-    width: 33.3333%;
+    width: 30%;
+    padding: 30px 30px;
     background-color: white;
   }
+
+  .hub-container > img {
+    /* centering the img horizontally */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hub-container > h4,
+  .hub-container > h5
+  {
+    text-align: center;
+  }
+
+  .hub-container > hr {
+    margin: 10px 0;
+    border: 2px solid black;
+  }
+
+  #main-2nd-row-third-row > .row-container-3 > .hub-container:nth-child(2) {
+    margin: 0 5%;
+  }
+    /* third row of main's second row */
 
   /* /main's second row */
 
