@@ -211,8 +211,10 @@ body {
   /* /main's first row */
 
   /* main's second row */
-  #main-2nd-row-first-row {
+  #main-second-row {
     background-color: rgb(244, 248, 250);
+    padding: 50px 0;
+    color: rgb(51, 71, 91);
   }
 
   .row-container-3 {
@@ -221,8 +223,20 @@ body {
   }
 
     /* first row of main's second row */
-  #main-second-row-first-row {
+  #main-2nd-row-first-row {
     text-align: center;
+  }
+
+  #main-2nd-row-first-row img {
+    width: 190px;
+  }
+
+  #main-2nd-row-first-row h2 {
+    font-size: 32px;
+  }
+
+  #main-2nd-row-first-row p {
+    margin-top: 20px;
   }
 
   /* second row of main's second row */
