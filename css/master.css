@@ -220,9 +220,10 @@ body {
   .row-container-3 {
     width: 74%;
     margin: auto;
+    padding: 25px 0;
   }
 
-    /* first row of main's second row */
+  /* first row of main's second row */
   #main-2nd-row-first-row {
     text-align: center;
   }
@@ -238,12 +239,23 @@ body {
   #main-2nd-row-first-row p {
     margin-top: 20px;
   }
+  /* /first row of main's second row */
 
   /* second row of main's second row */
   #main-2nd-row-2nd-row > .row-container-3 > :first-child {
     float: left;
-    width: 35%;
-    background-color: black; /* debug */
+    width: 29%;
+    padding-left: 6%;
+    text-align: center;
+  }
+
+  #main-2nd-row-2nd-row > .row-container-3 > :first-child > img {
+    width: 200px;
+    height: 150px;
+  }
+
+  #main-2nd-row-2nd-row > .row-container-3 > :first-child > a {
+    display: inline-block;
   }
 
   #main-2nd-row-2nd-row > .row-container-3 > :last-child {
