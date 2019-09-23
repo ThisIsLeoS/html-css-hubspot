@@ -54,12 +54,12 @@ a {
   clear: both;
 }
 
-/* background colors */
+  /* background colors */
 .white-back {
   background-color: white;
 }
 
-/* font colors */
+  /* font colors */
 .orange-font {
   color: orange;
 }
@@ -154,7 +154,7 @@ body {
     padding-left: 10px;
   }
 
-  /* "Get Hubspot Free" button */
+    /* "Get Hubspot Free" button */
   #header-row-2-ul-right > li:last-child > a {
     border: 2px rgb(51, 71, 91) solid;
     color: white;
@@ -228,7 +228,7 @@ body {
     color: rgb(51, 71, 91);
   }
 
-  /* first row of main's second row */
+    /* first row of main's second row */
   #main-2nd-row-first-row {
     text-align: center;
   }
@@ -244,51 +244,51 @@ body {
   #main-2nd-row-first-row p {
     margin-top: 20px;
   }
-  /* /first row of main's second row */
+    /* /first row of main's second row */
 
-  /* second row of main's second row */
+    /* second row of main's second row */
 
     /* first column */
-    #main-2nd-row-2nd-row > .row-container-3 > :first-child {
-      float: left;
-      width: 29%;
-      padding-left: 6%;
-      text-align: center;
-    }
+  #main-2nd-row-2nd-row > .row-container-3 > :first-child {
+    float: left;
+    width: 29%;
+    padding-left: 6%;
+    text-align: center;
+  }
 
-    #main-2nd-row-2nd-row > .row-container-3 > :first-child > img {
-      width: 200px;
-      height: 150px;
-    }
+  #main-2nd-row-2nd-row > .row-container-3 > :first-child > img {
+    width: 200px;
+    height: 150px;
+  }
 
-    #main-2nd-row-2nd-row > .row-container-3 > :first-child > a {
-      /* to add a top margin (<a> is an inline element by default and borders can't be set for inline elements)*/
-      display: inline-block;
-      margin-top: 10px;
-    }
+  #main-2nd-row-2nd-row > .row-container-3 > :first-child > a {
+    /* to add a top margin (<a> is an inline element by default and borders can't be set for inline elements)*/
+    display: inline-block;
+    margin-top: 10px;
+  }
     /* first column */
 
     /* second column */
-    #main-2nd-row-2nd-row > .row-container-3 > :last-child {
-      float: left;
-      width: 55%;
-      margin-top: 25px;
-      margin-left: 10%;
-      color: rgb(51, 71, 91);
-    }
+  #main-2nd-row-2nd-row > .row-container-3 > :last-child {
+    float: left;
+    width: 55%;
+    margin-top: 25px;
+    margin-left: 10%;
+    color: rgb(51, 71, 91);
+  }
 
-    #main-2nd-row-2nd-row > .row-container-3 > section:last-child > p {
-      margin: 20px 0;
-    }
+  #main-2nd-row-2nd-row > .row-container-3 > section:last-child > p {
+    margin: 20px 0;
+  }
 
-    #main-2nd-row-2nd-row > .row-container-3 > section:last-child > ul {
-      margin-top: 20px;
-    }
+  #main-2nd-row-2nd-row > .row-container-3 > section:last-child > ul {
+    margin-top: 20px;
+  }
 
-    #main-2nd-row-2nd-row > .row-container-3 > :last-child li {
-      display: inline-block;
-      margin-right: 8px;
-    }
+  #main-2nd-row-2nd-row > .row-container-3 > :last-child li {
+    display: inline-block;
+    margin-right: 8px;
+  }
     /* /second column */
 
   /* third row of main's second row */
