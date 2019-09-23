@@ -314,7 +314,7 @@ body {
   .hub-container > h5,
   .hub-container > p,
   .hub-container > hr,
-  .hub-container > ul
+  .hub-container li
   {
     margin-top: 15px;
   }
@@ -338,7 +338,9 @@ body {
 
   /* main's third row */
   #main-3rd-row {
-    background-color: rgb(0, 163, 162);
+    padding: 55px 0;
+    background-image: linear-gradient(45deg, #00a4bd, #00bda5);
+    color: white;
   }
 
   /* first row of main's third row */
@@ -348,19 +350,49 @@ body {
     text-align: center;
   }
 
+  #main-3rd-row-1st-row > h2 {
+    font-size: 32px;
+  }
+
+  #main-3rd-row-1st-row > p {
+    margin-top: 20px;
+  }
+
   /* second row of main's third row */
+  #main-3rd-row-2nd-row {
+    margin-top: 50px;
+  }
+
   .users-number-container {
     float: left;
     width: 25%;
+    padding: 25px;
     text-align: center;
+  }
+
+  .users-number-container > * {
+    margin-top: 10px;
+  }
+
+  .users-number-container > p:nth-child(2) {
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  .users-number-container > p:last-child {
+    font-size: 14px;
+  }
+
+  #main-3rd-row-2nd-row li {
+    border-right: 1px solid white;
   }
 
   #main-3rd-row-2nd-row > :last-child {
     border-top: 1px solid white;
   }
 
-  .border-right-solid {
-    border-right: 1px solid white;
+  #main-3rd-row-2nd-row > ul > :last-child {
+    border-right: 0;
   }
   /* /main's third row */
 
